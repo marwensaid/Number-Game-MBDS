@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37D423DB-9D84-4AF0-AF99-AC0A6D2EC873</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Number</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52F5A95D05B21B7461AFE486460BDCBA73EB4798</key>
+		<string>https://github.com/marwensaid/Number-Game-MBDS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Number.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52F5A95D05B21B7461AFE486460BDCBA73EB4798</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marwensaid/Number-Game-MBDS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52F5A95D05B21B7461AFE486460BDCBA73EB4798</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52F5A95D05B21B7461AFE486460BDCBA73EB4798</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Number-Game-MBDS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
