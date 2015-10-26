@@ -20,14 +20,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    number=arc4random()%100;
+    number=arc4random() % 100;
+    [self.infoTV setText:@"Veuillez entrer un nombre pour jouer"];
+    
 }
 - (IBAction)checkBtn:(id)sender {
     [numberTF resignFirstResponder];
+    NSInteger ess=[[numberTF text]intValue];
+    incr= incr+1;
+    if (ess<number){
+        [self.infoTV setText:@"plus petit"];
+
+    }
+    if(ess>number){
+        [self.infoTV setText:@"plus grand"];
+    }
+    if (ess==number){
+        //[self.infoTV setText:@"egal \n le nombre d'essaies est: %@.", incr];
+        infoTV.text= [NSString stringWithFormat:@"egal \n le nombre d'essaies est: %i", incr];
+        
+        
+    }
 }
 
 - (IBAction)resetBtn:(id)sender {
     number=arc4random()%100;
+    [self.infoTV setText:@"Veuillez entrer un nombre pour jouer"];
+    [self.numberTF setText:0];
+    incr=0;
+    
 }
 
 

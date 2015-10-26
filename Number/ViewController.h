@@ -12,6 +12,8 @@
 
 {
     int number;
+    int ess;
+    int incr;
 }
 @property (weak, nonatomic) IBOutlet UITextField *numberTF;
 @property (weak, nonatomic) IBOutlet UITextView *infoTV;
