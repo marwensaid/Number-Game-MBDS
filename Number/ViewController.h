@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+{
+    int number;
+}
+@property (weak, nonatomic) IBOutlet UITextField *numberTF;
+@property (weak, nonatomic) IBOutlet UITextView *infoTV;
 
 @end
 

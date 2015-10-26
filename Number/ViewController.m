@@ -14,10 +14,22 @@
 
 @implementation ViewController
 
+@synthesize numberTF;
+@synthesize infoTV;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    number=arc4random()%100;
 }
+- (IBAction)checkBtn:(id)sender {
+    [numberTF resignFirstResponder];
+}
+
+- (IBAction)resetBtn:(id)sender {
+    number=arc4random()%100;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
