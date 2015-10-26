@@ -424,6 +424,7 @@
 				81DB4F7F1BDE13D300F50494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81DB4F801BDE13D300F50494 /* Build configuration list for PBXNativeTarget "NumberTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +433,7 @@
 				81DB4F821BDE13D300F50494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
